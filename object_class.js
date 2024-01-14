@@ -36,11 +36,13 @@ class Person {
   }
 }
 // Test:
-const p1 = new Person("Ayman", 42);
-const p2 = new Person("Hamza", 18);
-const p3 = new Person("Ahmed", 25);
+const p1 = new Person("Samuel", 24)
+const p2 = new Person("Joel", 36)
+const p3 = new Person("Lily", 24)
 
-console.log(p1.compareAge(p1));
+console.log(p1.compareAge(p2));
+console.log(p2.compareAge(p1));
+console.log(p1.compareAge(p3));
 // Todo: End Task 2 : Are you Older Than me ?
 // ---------------------------------------------------
 
